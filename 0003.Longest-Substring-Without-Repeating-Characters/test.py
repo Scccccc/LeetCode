@@ -1,9 +1,5 @@
 class Solution(object):
     def lengthOfLongestSubstring(self, s):
-        """
-        :type s: str
-        :rtype: int
-        """
         result=0
         temp=''
         for item in s:
